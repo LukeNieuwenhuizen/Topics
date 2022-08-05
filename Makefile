@@ -3,3 +3,4 @@ scanner: scanner.c
 
 clean:
 	rm a.out
+	

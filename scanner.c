@@ -35,7 +35,7 @@ int main(int argc, char * argv[]){
         // Tokenise the line, breaking the strings by spaces to get each word
         token = strtok(line, " ");
 
-        // This will show which line number we are currently on
+        // This will show which line number it is currently on
         printf("%d: ", lineCounter++);
 
             
