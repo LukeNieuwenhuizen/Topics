@@ -10,7 +10,8 @@ int main(int argc, char * argv[]){
     int lineCounter = 1;        // Keeping track of current line number in a file
 
 
-    int registerCounter[8] = {0};
+    int regCounter[8] = {0};
+    char regLine[8][255] = {{0}};
     
 
     // Error handling for not including file as parameter
@@ -32,15 +33,20 @@ int main(int argc, char * argv[]){
         exit(EXIT_SUCCESS);
     }
     
+    int codeBlockCounter;
+    char temp[100];
 
     // Reading each line of the file
     while (fgets(line, sizeof(line), file) != NULL){
 
         // Tokenise the line, breaking the strings by spaces to get each word
         token = strtok(line, " ");
+
+        codeBlockCounter = 0;
             
         // This reads the first word of each line
-        if (strcmp(token, "ldr") == 0){                 // If ldr then flag this as a register
+        if (token[0] == 'l' && token[1] == 'd' && token[2] == 'r'){       // If ldr then flag this as a register
+
 
 
             // This will show which line number it is currently on
@@ -49,17 +55,25 @@ int main(int argc, char * argv[]){
             // Prints the remaining words in this line, this will be change to anaylse the next part of the instructions
             while (token != NULL){
 
+                codeBlockCounter++;
+
                 // Check the code block after ldr is a register and determine the register number
-                if (isdigit(token[1])){
+                if ((isdigit(token[1])) && codeBlockCounter == 2){
 
                     // Increment the number of times that certain register have appeared
-                    registerCounter[atoi(&token[1])]++;
+                    regCounter[atoi(&token[1])]++;
+                    sprintf(temp, " %d", lineCounter);
+
+                    strcat(regLine[atoi(&token[1])], temp);
+
+
+                    codeBlockCounter++;
                 }
 
                 // Reset tokeniser
                 token = strtok(NULL, " ");
             }
-            
+
             // printf("\n");
             
         }
@@ -70,7 +84,12 @@ int main(int argc, char * argv[]){
 
     // Print the array of register counters
     for (int i = 0; i < 8; i++){
-       printf("r%d: %d\n", i, registerCounter[i]);
+        if (regCounter[i] > 0){
+            printf("r%d: %d. Register used on line %s\n", i, regCounter[i], regLine[i]);
+            // printf("r%d: %d. Register used on line %s\n", i, regCounter[i], regLine[i]);
+        }
+        
+        
     }
     
     
