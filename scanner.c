@@ -1,7 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include<stdbool.h>  
 #include <ctype.h>
+
+bool instructionChecker(char * token){
+    if (    (token[0] == 'l' && token[1] == 'd' && token[2] == 'r') ||
+            (token[0] == 'm' && token[1] == 'o' && token[2] == 'v')){
+        return true;
+    }
+    
+    return false;
+}
+
+char * cleaningStrings(char * word){
+    char * results;
+
+
+
+    return results;
+}
+
+
 
 int main(int argc, char * argv[]){
 
@@ -12,6 +32,13 @@ int main(int argc, char * argv[]){
 
     int regCounter[8] = {0};
     char regLine[8][255] = {{0}};
+
+    int regNumber = 0;
+    char regState[8][255] = {{0}};
+    bool flag = false;
+
+    int codeBlockCounter;
+    char temp[100];
     
 
     // Error handling for not including file as parameter
@@ -33,45 +60,54 @@ int main(int argc, char * argv[]){
         exit(EXIT_SUCCESS);
     }
     
-    int codeBlockCounter;
-    char temp[100];
+
 
     // Reading each line of the file
     while (fgets(line, sizeof(line), file) != NULL){
 
         // Tokenise the line, breaking the strings by spaces to get each word
-        token = strtok(line, " ");
+        token = strtok(line, " ,");
 
+        // To limit to which block we want to count up to
         codeBlockCounter = 0;
             
         // This reads the first word of each line
-        if (token[0] == 'l' && token[1] == 'd' && token[2] == 'r'){       // If ldr then flag this as a register
+        if ( instructionChecker(token) == true){         // If mov then flag as a moving content of one register to another
 
-
-
-            // This will show which line number it is currently on
-            // printf("%d: ", lineCounter);
-
+            
             // Prints the remaining words in this line, this will be change to anaylse the next part of the instructions
             while (token != NULL){
 
+                // Increment code block counter
                 codeBlockCounter++;
 
                 // Check the code block after ldr is a register and determine the register number
                 if ((isdigit(token[1])) && codeBlockCounter == 2){
 
                     // Increment the number of times that certain register have appeared
-                    regCounter[atoi(&token[1])]++;
+                    regNumber = atoi(&token[1]);
+                    regCounter[regNumber]++;
                     sprintf(temp, " %d", lineCounter);
 
-                    strcat(regLine[atoi(&token[1])], temp);
-
-
-                    codeBlockCounter++;
+                    strcpy(regLine[atoi(&token[1])], temp);
                 }
 
-                // Reset tokeniser
-                token = strtok(NULL, " ");
+                // Store information at the register
+                if (codeBlockCounter == 3){
+                    if (regState[regNumber][0] == '\0'){
+                        strcpy(regState[regNumber], token);
+                        printf("Storing %s from line %d at register %d\n", token, lineCounter, regNumber);
+                        
+                    
+                    } else if (strcmp(regState[regNumber], token) != 0){
+                        printf("Data overwritten at register %d. New Data: %s, Old Data: %s at line %d\n", regNumber, token, regState[regNumber], lineCounter);
+                        strcpy(regState[regNumber], token);
+                    }
+                }
+                
+
+                // Reset tokeniser and remove new line
+                token = strtok(NULL, " \n");
             }
 
             // printf("\n");
@@ -83,16 +119,24 @@ int main(int argc, char * argv[]){
 
 
     // Print the array of register counters
-    for (int i = 0; i < 8; i++){
-        if (regCounter[i] > 0){
-            printf("r%d: %d. Register used on line %s\n", i, regCounter[i], regLine[i]);
-            // printf("r%d: %d. Register used on line %s\n", i, regCounter[i], regLine[i]);
-        }
+    // for (int i = 0; i < 8; i++){
+    //     if (regCounter[i] > 0){
+    //         printf("Register %d used on line %s\n", i, regLine[i]);
+    //     }
         
         
-    }
+    // }
     
     
     fclose(file);
     return 0;
 }
+
+
+
+/* 
+- Need to account for other instructions such as MOV
+- Will need to confirm if I need to worry for instructions such as the STR, this doesn't have anything to do with registers but it does for memory
+
+
+*/
