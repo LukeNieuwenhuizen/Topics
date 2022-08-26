@@ -14,11 +14,23 @@ bool instructionChecker(char * token){
 }
 
 char * cleaningStrings(char * word){
-    char * results;
+
+    for (int i = 0, j; word[i] != '\0'; ++i) {
+        while ( !(word[i] >= 'a' && word[i] <= 'z') && 
+                !(word[i] >= 'A' && word[i] <= 'Z') && 
+                !(word[i] >= '0' && word[i] <= '9') &&
+                !(word[i] == '\0') && !(word[i] == '#')) {
+         
+            for (j = i; word[j] != '\0'; ++j) { 
+                word[j] = word[j + 1];
+            }
+         
+            word[j] = '\0';
+      }
+   }
 
 
-
-    return results;
+    return word;
 }
 
 
@@ -78,6 +90,9 @@ int main(int argc, char * argv[]){
             // Prints the remaining words in this line, this will be change to anaylse the next part of the instructions
             while (token != NULL){
 
+                // Cleaning up strings
+                char * results = cleaningStrings(token);
+
                 // Increment code block counter
                 codeBlockCounter++;
 
@@ -86,22 +101,24 @@ int main(int argc, char * argv[]){
 
                     // Increment the number of times that certain register have appeared
                     regNumber = atoi(&token[1]);
-                    regCounter[regNumber]++;
-                    sprintf(temp, " %d", lineCounter);
+                    // regCounter[regNumber]++;
+                    // sprintf(temp, " %d", lineCounter);
 
-                    strcpy(regLine[atoi(&token[1])], temp);
+                    // strcpy(regLine[atoi(&token[1])], temp);
                 }
+
+                
 
                 // Store information at the register
                 if (codeBlockCounter == 3){
                     if (regState[regNumber][0] == '\0'){
-                        strcpy(regState[regNumber], token);
-                        printf("Storing %s from line %d at register %d\n", token, lineCounter, regNumber);
+                        strcpy(regState[regNumber], results);
+                        // printf("Storing %s from line %d at register %d\n", results, lineCounter, regNumber);
                         
                     
-                    } else if (strcmp(regState[regNumber], token) != 0){
-                        printf("Data overwritten at register %d. New Data: %s, Old Data: %s at line %d\n", regNumber, token, regState[regNumber], lineCounter);
-                        strcpy(regState[regNumber], token);
+                    } else if (strcmp(regState[regNumber], results) != 0){
+                        printf("Data overwritten at register %d. New Data: %s, Old Data: %s at line %d\n", regNumber, results, regState[regNumber], lineCounter);
+                        strcpy(regState[regNumber], results);
                     }
                 }
                 
