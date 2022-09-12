@@ -13,23 +13,16 @@
 
 #define ADDRESS 0x10000
 
-static void hook_block(uc_engine *uc, uint64_t address, uint32_t size,
-                       void *user_data)
-{
-    printf(">>> Tracing basic block at 0x%" PRIx64 ", block size = 0x%x\n",
-           address, size);
+static void hook_block(uc_engine *uc, uint64_t address, uint32_t size, void *user_data){
+    printf(">>> Tracing basic block at 0x%" PRIx64 ", block size = 0x%x\n", address, size);
 }
 
-static void hook_code(uc_engine *uc, uint64_t address, uint32_t size,
-                      void *user_data)
-{
-    printf(">>> Tracing instruction at 0x%" PRIx64
-           ", instruction size = 0x%x\n",
-           address, size);
+static void hook_code(uc_engine *uc, uint64_t address, uint32_t size, void *user_data){
+    printf(">>> Tracing instruction at 0x%" PRIx64 ", instruction size = 0x%x\n", address, size);
+
 }
 
-static void test_thumb(void)
-{
+static void test_thumb(void){
     uc_engine *uc;
     uc_err err;
     uc_hook trace1, trace2;
@@ -40,6 +33,7 @@ static void test_thumb(void)
     int r2 = 0x0;// = 0x6789; // R1 register
     int r3 = 0x0;//; = 0x3333; // R2 register
 
+    char code[] = "\x4F\xF0\x63\x03\x4F\xF0\x0A\x02\x1A\x46";
 
     printf("Emulate THUMB code\n");
 
@@ -55,7 +49,7 @@ static void test_thumb(void)
     uc_mem_map(uc, ADDRESS, 2 * 1024 * 1024, UC_PROT_ALL);
 
     // write machine code to be emulated to memory
-    uc_mem_write(uc, ADDRESS, THUMB_CODE, sizeof(THUMB_CODE) - 1);
+    uc_mem_write(uc, ADDRESS, code, sizeof(code) - 1);
 
     // initialize machine registers
     // uc_reg_write(uc, UC_ARM_REG_SP, &sp);
@@ -73,7 +67,7 @@ static void test_thumb(void)
     // emulate machine code in infinite time (last param = 0), or when
     // finishing all the code.
     // Note we start at ADDRESS | 1 to indicate THUMB mode.
-    err = uc_emu_start(uc, ADDRESS | 1, ADDRESS + sizeof(THUMB_CODE) - 1, 0, 0);
+    err = uc_emu_start(uc, ADDRESS | 1, ADDRESS + sizeof(code) - 1, 0, 0);
     if (err) {
         printf("Failed on uc_emu_start() with error returned: %u\n", err);
     }

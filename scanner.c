@@ -13,6 +13,9 @@ bool instructionChecker(char * token){
     return false;
 }
 
+
+
+
 char * cleaningStrings(char * word){
 
     for (int i = 0, j; word[i] != '\0'; ++i) {
@@ -28,14 +31,17 @@ char * cleaningStrings(char * word){
             word[j] = '\0';
       }
    }
-
-
     return word;
 }
 
 
 
+
+
+
 int main(int argc, char * argv[]){
+
+    /*                          Declare Variables                       */
 
     char line[255];             // For reading each lines in a file
     char * token;               // This will be used to get the first word of each line
@@ -43,7 +49,7 @@ int main(int argc, char * argv[]){
 
     int regNumber = 0;
     int nextRegNumber = 0;
-    char regState[8][255] = {{"0"}, {"0"}, {"0"}, {"0"}, {"0"}, {"0"}, {"0"}, {"0"}};    
+    char regState[8][255] = {{0}};    
 
     char newData[255];
     char currentData[255];
@@ -51,6 +57,8 @@ int main(int argc, char * argv[]){
     int codeBlockCounter;
     char temp[100];
     
+
+    /*                          File Handling                           */
 
     // Error handling for not including file as parameter
     if (argc < 2){
@@ -70,20 +78,25 @@ int main(int argc, char * argv[]){
         printf("File Not Found\n");
         exit(EXIT_SUCCESS);
     }
-    
 
+
+
+
+
+    
+    /*                          Assembly code Handling                          */
 
     // Reading each line of the file
     while (fgets(line, sizeof(line), file) != NULL){
 
         // Tokenise the line, breaking the strings by spaces to get each word
-        token = strtok(line, " ,");
+        token = strtok(line, " .,\n");
 
         // To limit to which block we want to count up to
         codeBlockCounter = 0;
             
         // This reads the first word of each line
-        if ( instructionChecker(token) == true){         
+        if ( instructionChecker(token) == true ){         
 
             
             // Prints the remaining words in this line, this will be change to anaylse the next part of the instructions
@@ -136,10 +149,10 @@ int main(int argc, char * argv[]){
     }    
     
     // Printing out the last status of the registers
-    // printf("\n");
-    // for (int i = 0; i < 8; i++){
-    //     printf("RegState %d: %s\n", i, regState[i]);
-    // }
+    printf("\n");
+    for (int i = 0; i < 8; i++){
+        printf("RegState %d: %s\n", i, regState[i]);
+    }
     
 
 
