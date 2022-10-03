@@ -1,0 +1,4920 @@
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r3, 0
+ldr r2, a00
+ldr r3, b00
+eors b00, a00
+ldr r2, a01
+ldr r3, b01
+eors b01, a01
+ldr r2, a02
+ldr r3, b02
+eors b02, a02
+ldr r2, a03
+ldr r3, b03
+eors b03, a03
+ldr r2, a10
+ldr r3, b10
+eors b10, a10
+ldr r2, a11
+ldr r3, b11
+eors b11, a11
+ldr r2, a12
+ldr r3, b12
+eors b12, a12
+ldr r2, a13
+ldr r3, b13
+eors b13, a13
+ldr r2, a20
+ldr r3, b20
+eors b20, a20
+ldr r2, a21
+ldr r3, b21
+eors b21, a21
+ldr r2, a22
+ldr r3, b22
+eors b22, a22
+ldr r2, a23
+ldr r3, b23
+eors b23, a23
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a03
+ldr r3, a13
+eors a13, a03
+ldr r2, a23
+eors a13, a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, a00
+ldr r3, a10
+eors a10, a00
+ldr r2, a20
+eors a10, a20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a20
+ldr r2, a00
+ldr r3, 
+eors , a00
+ldr r2, a10
+ldr r3, 
+eors , a10
+ldr r2, a20
+ldr r3, 
+eors , a20
+ldr r2, a01
+ldr r3, a11
+eors a11, a01
+ldr r2, a21
+eors a11, a21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a21
+ldr r2, a01
+ldr r3, 
+eors , a01
+ldr r2, a11
+ldr r3, 
+eors , a11
+ldr r2, a21
+ldr r3, 
+eors , a21
+ldr r2, a02
+ldr r3, a12
+eors a12, a02
+ldr r2, a22
+eors a12, a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a02
+ldr r3, 
+eors , a02
+ldr r2, a12
+ldr r3, 
+eors , a12
+ldr r2, a22
+ldr r3, 
+eors , a22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , a22
+ldr r2, a03
+ldr r3, 
+eors , a03
+ldr r2, a13
+ldr r3, 
+eors , a13
+ldr r2, a23
+ldr r3, 
+eors , a23
+ldr r2, b03
+ldr r3, b13
+eors b13, b03
+ldr r2, b23
+eors b13, b23
+ldr r2, b00
+ldr r3, b10
+eors b10, b00
+ldr r2, b20
+eors b10, b20
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b20
+ldr r2, b00
+ldr r3, 
+eors , b00
+ldr r2, b10
+ldr r3, 
+eors , b10
+ldr r2, b20
+ldr r3, 
+eors , b20
+ldr r2, b01
+ldr r3, b11
+eors b11, b01
+ldr r2, b21
+eors b11, b21
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b21
+ldr r2, b01
+ldr r3, 
+eors , b01
+ldr r2, b11
+ldr r3, 
+eors , b11
+ldr r2, b21
+ldr r3, 
+eors , b21
+ldr r2, b02
+ldr r3, b12
+eors b12, b02
+ldr r2, b22
+eors b12, b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b02
+ldr r3, 
+eors , b02
+ldr r2, b12
+ldr r3, 
+eors , b12
+ldr r2, b22
+ldr r3, 
+eors , b22
+ldr r3, 
+Checking movs
+Checking movs
+ldr r3, 
+Checking movs
+eors , b22
+ldr r2, b03
+ldr r3, 
+eors , b03
+ldr r2, b13
+ldr r3, 
+eors , b13
+ldr r2, b23
+ldr r3, 
+eors , b23
+ldr r3, a20
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, a22
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a13
+ldr r3, a12
+ldr r3, a11
+ldr r3, a10
+ldr r3, 
+ldr r3, b20
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, b22
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b13
+ldr r3, b12
+ldr r3, b11
+ldr r3, b10
+ldr r3, 
+ldr r3, a00
+Checking movs
+eors a00, b23
+ldr r3, a10
+ldr r2, a20
+ldr r3, a10
+ldr r1, b20
+eors a10, a20
+ldr r2, a00
+eors a10, a00
+ldr r3, b10
+ldr r2, b20
+ldr r3, b10
+ldr r1, a20
+eors b10, b20
+ldr r2, b00
+eors b10, b00
+ldr r3, a11
+ldr r2, a21
+ldr r3, a11
+ldr r1, b21
+eors a11, a21
+ldr r2, a01
+eors a11, a01
+ldr r3, b11
+ldr r2, b21
+ldr r3, b11
+ldr r1, a21
+eors b11, b21
+ldr r2, b01
+eors b11, b01
+ldr r3, a12
+ldr r2, a22
+ldr r3, a12
+ldr r1, b22
+eors a12, a22
+ldr r2, a02
+eors a12, a02
+ldr r3, b12
+ldr r2, b22
+ldr r3, b12
+ldr r1, a22
+eors b12, b22
+ldr r2, b02
+eors b12, b02
+ldr r3, a13
+ldr r2, a23
+ldr r3, a13
+ldr r1, b23
+eors a13, a23
+ldr r2, a03
+eors a13, a03
+ldr r3, b13
+ldr r2, b23
+ldr r3, b13
+ldr r1, a23
+eors b13, b23
+ldr r2, b03
+eors b13, b03
+ldr r3, a20
+ldr r2, a00
+ldr r3, a20
+ldr r1, b00
+eors a20, a00
+ldr r2, a10
+eors a20, a10
+ldr r3, b20
+ldr r2, b00
+ldr r3, b20
+ldr r1, a00
+eors b20, b00
+ldr r2, b10
+eors b20, b10
+ldr r3, a21
+ldr r2, a01
+ldr r3, a21
+ldr r1, b01
+eors a21, a01
+ldr r2, a11
+eors a21, a11
+ldr r3, b21
+ldr r2, b01
+ldr r3, b21
+ldr r1, a01
+eors b21, b01
+ldr r2, b11
+eors b21, b11
+ldr r3, a22
+ldr r2, a02
+ldr r3, a22
+ldr r1, b02
+eors a22, a02
+ldr r2, a12
+eors a22, a12
+ldr r3, b22
+ldr r2, b02
+ldr r3, b22
+ldr r1, a02
+eors b22, b02
+ldr r2, b12
+eors b22, b12
+ldr r3, a23
+ldr r2, a03
+ldr r3, a23
+ldr r1, b03
+eors a23, a03
+ldr r2, a13
+eors a23, a13
+ldr r3, b23
+ldr r2, b03
+ldr r3, b23
+ldr r1, a03
+eors b23, b03
+ldr r2, b13
+eors b23, b13
+ldr r3, a00
+ldr r2, a10
+ldr r3, a00
+ldr r1, b10
+eors a00, a10
+ldr r2, a20
+eors a00, a20
+ldr r3, b00
+ldr r2, b10
+ldr r3, b00
+ldr r1, a10
+eors b00, b10
+ldr r2, b20
+eors b00, b20
+ldr r3, a01
+ldr r2, a11
+ldr r3, a01
+ldr r1, b11
+eors a01, a11
+ldr r2, a21
+eors a01, a21
+ldr r3, b01
+ldr r2, b11
+ldr r3, b01
+ldr r1, a11
+eors b01, b11
+ldr r2, b21
+eors b01, b21
+ldr r3, a02
+ldr r2, a12
+ldr r3, a02
+ldr r1, b12
+eors a02, a12
+ldr r2, a22
+eors a02, a22
+ldr r3, b02
+ldr r2, b12
+ldr r3, b02
+ldr r1, a12
+eors b02, b12
+ldr r2, b22
+eors b02, b22
+ldr r3, a03
+ldr r2, a13
+ldr r3, a03
+ldr r1, b13
+eors a03, a13
+ldr r2, a23
+eors a03, a23
+ldr r3, b03
+ldr r2, b13
+ldr r3, b03
+ldr r1, a13
+eors b03, b13
+ldr r2, b23
+eors b03, b23
+ldr r3, a10
+Checking movs
+ldr r3, a11
+Checking movs
+ldr r3, a12
+Checking movs
+ldr r3, a13
+Checking movs
+ldr r3, a23
+Checking movs
+ldr r3, a21
+Checking movs
+ldr r3, 
+ldr r3, a22
+Checking movs
+ldr r3, a20
+Checking movs
+ldr r3, 
+ldr r3, b10
+Checking movs
+ldr r3, b11
+Checking movs
+ldr r3, b12
+Checking movs
+ldr r3, b13
+Checking movs
+ldr r3, b23
+Checking movs
+ldr r3, b21
+Checking movs
+ldr r3, 
+ldr r3, b22
+Checking movs
+ldr r3, b20
+Checking movs
+ldr r3, 
+ldr r2, a00
+ldr r3, b00
+eors b00, a00
+ldr r2, a01
+ldr r3, b01
+eors b01, a01
+ldr r2, a02
+ldr r3, b02
+eors b02, a02
+ldr r2, a03
+ldr r3, b03
+eors b03, a03
+ldr r2, a10
+ldr r3, b10
+eors b10, a10
+ldr r2, a11
+ldr r3, b11
+eors b11, a11
+ldr r2, a12
+ldr r3, b12
+eors b12, a12
+ldr r2, a13
+ldr r3, b13
+eors b13, a13
+ldr r2, a20
+ldr r3, b20
+eors b20, a20
+ldr r2, a21
+ldr r3, b21
+eors b21, a21
+ldr r2, a22
+ldr r3, b22
+eors b22, a22
+ldr r2, a23
+ldr r3, b23
+eors b23, a23
+ldr r3, 
+ldr r2, a00
+ldr r3, 
+ldr r2, a01
+ldr r3, 
+ldr r2, a02
+ldr r3, 
+ldr r2, a03
+ldr r3, 
+ldr r2, a10
+ldr r3, 
+ldr r2, a11
+ldr r3, 
+ldr r2, a12
+ldr r3, 
+ldr r2, a13
+ldr r3, 
+ldr r2, a20
+ldr r3, 
+ldr r2, a21
+ldr r3, 
+ldr r2, a22
+ldr r3, 
+ldr r2, a23
