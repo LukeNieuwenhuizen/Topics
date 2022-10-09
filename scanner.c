@@ -58,7 +58,7 @@ int main(int argc, char * argv[]){
     char * token;               // This will be used to get the first word of each line
     int lineCounter = 1;        // Keeping track of current line number in a file
 
-    char regState[8][255] = {{0}};
+    char regState[8][255] = {0};
     char * storeCommands[6] = {0};
     
 
@@ -187,7 +187,18 @@ int main(int argc, char * argv[]){
                         strcpy(shares[atoi(results)/4], "b22");
                     } else if (strcmp(results, "24") == 0){
                         strcpy(shares[atoi(results)/4], "b23");
-                    }
+                        
+                    } else if (strcmp(results, "20") == 0){
+                        strcpy(shares[atoi(results)/4], "var1");
+                    } else if (strcmp(results, "16") == 0){
+                        strcpy(shares[atoi(results)/4], "var2");
+                    } else if (strcmp(results, "12") == 0){
+                        strcpy(shares[atoi(results)/4], "var3");
+                    } else if (strcmp(results, "8") == 0){
+                        strcpy(shares[atoi(results)/4], "var4");
+                    } else if (strcmp(results, "4") == 0){
+                        strcpy(shares[atoi(results)/4], "var5");
+                    } 
 
                     currentVal = shares[atoi(results)/4];
                 }                 
@@ -204,19 +215,51 @@ int main(int argc, char * argv[]){
                 char * temp1 = &storeCommands[1][1];
                 int num = atoi(temp1);
 
+                char prevLDR[255];
+
+                if (strcmp(regState[num], "\0") != 0){
+                    strcpy(prevLDR, regState[num]);
+                } else {
+                    strcpy(prevLDR, "NULL");
+                }
+                
+
                 if (offsetStatus == true){
                     strcpy(regState[num], currentVal);
                 } else {
                     strcpy(regState[num], storeCommands[2]);
                 }
 
-                printf("ldr %s, %s\n", storeCommands[1], regState[num]);
+                if ( regState[num][0] != prevLDR[0] && (regState[num][1] == prevLDR[1]) && (regState[num][2] == prevLDR[2])){
+                    printf("%d: ldr %s, %s    (was %s)\n", lineCounter, storeCommands[1], regState[num], prevLDR);
+                }
             }
 
             
             // This is for movs
             if ( strcmp(storeCommands[0], "movs") == 0){
-                printf("Checking movs\n");
+                // printf("Checking ldr\n");
+                char * temp1 = &storeCommands[1][1];
+                int num = atoi(temp1);
+
+                char prevLDR[255];
+
+                if (strcmp(regState[num], "\0") != 0){
+                    strcpy(prevLDR, regState[num]);
+                } else {
+                    strcpy(prevLDR, "NULL");
+                }
+                
+
+                if (offsetStatus == true){
+                    strcpy(regState[num], currentVal);
+                } else {
+                    strcpy(regState[num], storeCommands[2]);
+                }
+
+                if ( regState[num][0] != prevLDR[0] && (regState[num][1] == prevLDR[1]) && (regState[num][2] == prevLDR[2])){
+                    printf("%d: movs %s, %s    (was %s)\n", lineCounter, storeCommands[1], regState[num], prevLDR);
+                }
             }
             
             
@@ -229,7 +272,7 @@ int main(int argc, char * argv[]){
                 char * temp2 = &storeCommands[2][1];
                 int num2 = atoi(temp2);
 
-                printf("eors %s, %s\n", regState[num1], regState[num2]);
+                // printf("%d: eors %s, %s\n", lineCounter, regState[num1], regState[num2]);
                 
             }
 
