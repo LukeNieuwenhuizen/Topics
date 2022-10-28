@@ -12,7 +12,7 @@ http://creativecommons.org/publicdomain/zero/1.0/
 
 #include <stdio.h>
 #include <string.h>
-#include "Xoodoo.h"
+#include "Xoodoo-masked-optimized.h"
 
 #define VERBOSE         0
 

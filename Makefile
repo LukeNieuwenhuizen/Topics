@@ -1,26 +1,31 @@
 ARMGNU = arm-none-eabi
 
-COPS = -mthumb -mcpu=arm7tdmi -march=armv4t -Wall -Werror -nostdlib -nostartfiles -nodefaultlibs -nostdlib -ffreestanding
-# -Os removed so I don't have to deal with stack pointers
+MODE = -mthumb
+MACHINE = -mcpu=arm7tdmi -march=armv4t
 
-xor:
-	$(ARMGNU)-gcc -S $(COPS) ./encryption/xor.c -o ./assembly/xor.s
+FLAGS = -Wall -Werror -nostdlib -nostartfiles -nodefaultlibs -ffreestanding
+
+IN = ./encryption/Xoodoo-masked-optimized.c
+
+OUT = ./assembly/xoodoo.s
 
 xoodoo:
-	$(ARMGNU)-gcc -S $(COPS) ./encryption/xoodoo.c -o ./assembly/xoodoo.s
+	$(ARMGNU)-gcc -S $(MODE) $(MACHINE) $(FLAGS) $(IN)  -o $(OUT)
 
 scanner: scanner.c
-	gcc -std=c99 -o a.out scanner.c
-
-testXor: 
-	gcc -std=c99 -o xor.out ./encryption/xor.c
-
-unicorn:
-	cc  test1.c -L/usr/local/Cellar/glib/2.72.3_1/lib -L/usr/local/opt/gettext/lib -lglib-2.0 -lintl  -lpthread -lm -lunicorn -o test1
+	gcc -std=c99 -Wall -o a.out scanner.c
 
 clean:
 	rm a.out ./assembly/output*
 
+# xor:
+# 	$(ARMGNU)-gcc -S $(FLAGS) ./encryption/xor.c -o ./assembly/xor.s
+
+# testXor: 
+# 	gcc -std=c99 -o xor.out ./encryption/xor.c
+
+# unicorn:
+# 	cc  test1.c -L/usr/local/Cellar/glib/2.72.3_1/lib -L/usr/local/opt/gettext/lib -lglib-2.0 -lintl  -lpthread -lm -lunicorn -o test1
 
 # MODE = -mthumb
 # TARGET = -mcpu=cortex-m4

@@ -7,7 +7,8 @@
 bool instructionChecker(char * token){
     if (    (token[0] == 'l' && token[1] == 'd' && token[2] == 'r') ||
             (token[0] == 'm' && token[1] == 'o' && token[2] == 'v') ||
-            (token[0] == 'e' && token[1] == 'o' && token[2] == 'r')){
+            (token[0] == 'e' && token[1] == 'o' && token[2] == 'r') ||
+            (token[0] == 's' && token[1] == 't' && token[2] == 'r') ){
         return true;
     }
     
@@ -82,8 +83,18 @@ int main(int argc, char * argv[]){
         printf("File Not Found\n");
         exit(EXIT_SUCCESS);
     }
+    
+    /*                          Assembly code Handling                          */
 
-    char shares[30][255]= {"0"};
+    // char shares[6][30][255] = {0};
+    int sharesPos = 0;
+
+    char currentVal[255];
+
+
+    char shares[30][6][255]= {  {"NULL"}, {"vTemp"}, {"vb2"}, {"va2"}, {"vb1"}, {"va1"},
+                                {"b23"}, {"b22"}, {"b21"}, {"b20"}, {"b13"}, {"b12"}, {"b11"}, {"b10"}, {"b03"}, {"b02"}, {"b01"}, {"b00"},
+                                {"a23"}, {"a22"}, {"a21"}, {"a20"}, {"a13"}, {"a12"}, {"a11"}, {"a10"}, {"a03"}, {"a02"}, {"a01"}, {"a00"}};
 
     // char * shareA[] = { "a00", "a01", "a02", "a03",
     //                     "a10", "a11", "a12", "a13",
@@ -92,15 +103,6 @@ int main(int argc, char * argv[]){
     // char * shareB[] = { "b00", "b01", "b02", "b03",
     //                     "b10", "b11", "b12", "b13",
     //                     "b20", "b21", "b22", "b23"  };
-
-
-
-
-
-
-
-    
-    /*                          Assembly code Handling                          */
 
     // Reading each line of the file
     while (fgets(line, sizeof(line), file) != NULL){
@@ -111,17 +113,16 @@ int main(int argc, char * argv[]){
         // This reads the first word of each line
         if ( instructionChecker(token) == true ){         
             int rows = 0;
-            bool getEquiv = false;
-            bool offsetStatus = false;
-            char * currentVal;
+            // bool offsetStatus = false;
+            
 
             // Prints the remaining words in this line, this will be change to anaylse the next part of the instructions
             while (token != NULL){
 
                 
-                if (token[0] == '['){
-                    offsetStatus = true;
-                }
+                // if ( /*token[0] == '['*/ storeCommands[0] != NULL && getSize(storeCommands) >= 4){
+                //     offsetStatus = true;
+                // }
                 
 
                 // Cleaning up strings
@@ -132,77 +133,76 @@ int main(int argc, char * argv[]){
 
 
                 // This is for testing
-                // printf("%s ", results);
-                
+                // printf("%s ", results);                
 
-                if (storeCommands[2] != NULL && strcmp(storeCommands[2], "r7") == 0){
-                    bool getEquiv = true;
-                    
-                    if (strcmp(results, "116") == 0){
-                        strcpy(shares[atoi(results)/4], "a00");
-                    } else if (strcmp(results, "112") == 0){
-                        strcpy(shares[atoi(results)/4], "a01");
-                    } else if (strcmp(results, "108") == 0){
-                        strcpy(shares[atoi(results)/4], "a02");
-                    } else if (strcmp(results, "104") == 0){
-                        strcpy(shares[atoi(results)/4], "a03");
-                    } else if (strcmp(results, "100") == 0){
-                        strcpy(shares[atoi(results)/4], "a10");
-                    } else if (strcmp(results, "96") == 0){
-                        strcpy(shares[atoi(results)/4], "a11");
-                    } else if (strcmp(results, "92") == 0){
-                        strcpy(shares[atoi(results)/4], "a12");
-                    } else if (strcmp(results, "88") == 0){
-                        strcpy(shares[atoi(results)/4], "a13");
-                    } else if (strcmp(results, "84") == 0){
-                        strcpy(shares[atoi(results)/4], "a20");
-                    } else if (strcmp(results, "80") == 0){
-                        strcpy(shares[atoi(results)/4], "a21");
-                    } else if (strcmp(results, "76") == 0){
-                        strcpy(shares[atoi(results)/4], "a22");
-                    } else if (strcmp(results, "72") == 0){
-                        strcpy(shares[atoi(results)/4], "a23");
+                if (storeCommands[2] != NULL && strcmp(storeCommands[2], "r7") == 0 && strcmp(storeCommands[0], "str") != 0){                    
+                    // if (strcmp(results, "116") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a00");
+                    // } else if (strcmp(results, "112") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a01");
+                    // } else if (strcmp(results, "108") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a02");
+                    // } else if (strcmp(results, "104") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a03");
+                    // } else if (strcmp(results, "100") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a10");
+                    // } else if (strcmp(results, "96") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a11");
+                    // } else if (strcmp(results, "92") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a12");
+                    // } else if (strcmp(results, "88") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a13");
+                    // } else if (strcmp(results, "84") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a20");
+                    // } else if (strcmp(results, "80") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a21");
+                    // } else if (strcmp(results, "76") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a22");
+                    // } else if (strcmp(results, "72") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "a23");
 
-                    } else if (strcmp(results, "68") == 0){
-                        strcpy(shares[atoi(results)/4], "b00");
-                    } else if (strcmp(results, "64") == 0){
-                        strcpy(shares[atoi(results)/4], "b01");
-                    } else if (strcmp(results, "60") == 0){
-                        strcpy(shares[atoi(results)/4], "b02");
-                    } else if (strcmp(results, "56") == 0){
-                        strcpy(shares[atoi(results)/4], "b03");
-                    } else if (strcmp(results, "52") == 0){
-                        strcpy(shares[atoi(results)/4], "b10");
-                    } else if (strcmp(results, "48") == 0){
-                        strcpy(shares[atoi(results)/4], "b11");
-                    } else if (strcmp(results, "44") == 0){
-                        strcpy(shares[atoi(results)/4], "b12");
-                    } else if (strcmp(results, "40") == 0){
-                        strcpy(shares[atoi(results)/4], "b13");
-                    } else if (strcmp(results, "36") == 0){
-                        strcpy(shares[atoi(results)/4], "b20");
-                    } else if (strcmp(results, "32") == 0){
-                        strcpy(shares[atoi(results)/4], "b21");
-                    } else if (strcmp(results, "28") == 0){
-                        strcpy(shares[atoi(results)/4], "b22");
-                    } else if (strcmp(results, "24") == 0){
-                        strcpy(shares[atoi(results)/4], "b23");
+                    // } else if (strcmp(results, "68") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b00");
+                    // } else if (strcmp(results, "64") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b01");
+                    // } else if (strcmp(results, "60") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b02");
+                    // } else if (strcmp(results, "56") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b03");
+                    // } else if (strcmp(results, "52") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b10");
+                    // } else if (strcmp(results, "48") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b11");
+                    // } else if (strcmp(results, "44") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b12");
+                    // } else if (strcmp(results, "40") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b13");
+                    // } else if (strcmp(results, "36") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b20");
+                    // } else if (strcmp(results, "32") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b21");
+                    // } else if (strcmp(results, "28") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b22");
+                    // } else if (strcmp(results, "24") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "b23");
                         
-                    } else if (strcmp(results, "20") == 0){
-                        strcpy(shares[atoi(results)/4], "var1");
-                    } else if (strcmp(results, "16") == 0){
-                        strcpy(shares[atoi(results)/4], "var2");
-                    } else if (strcmp(results, "12") == 0){
-                        strcpy(shares[atoi(results)/4], "var3");
-                    } else if (strcmp(results, "8") == 0){
-                        strcpy(shares[atoi(results)/4], "var4");
-                    } else if (strcmp(results, "4") == 0){
-                        strcpy(shares[atoi(results)/4], "var5");
-                    } 
+                    // } else if (strcmp(results, "20") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "va1");
+                    // } else if (strcmp(results, "16") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "vb1");
+                    // } else if (strcmp(results, "12") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "va2");
+                    // } else if (strcmp(results, "8") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "vb2");
+                    // } else if (strcmp(results, "4") == 0){
+                    //     strcpy(shares[0][atoi(results)/4], "vTemp");
+                    // }
 
-                    currentVal = shares[atoi(results)/4];
-                }                 
-                
+                    // currentVal = shares[0][atoi(results)/4];
+                    strcpy(currentVal, shares[atoi(results)/4][0]);
+                }
+
+                // currentVal = shares[atoi(results)/4];
                 rows++;
 
                 // Reset tokeniser and remove new line
@@ -211,28 +211,41 @@ int main(int argc, char * argv[]){
 
             // This is for LDR
             if (strcmp(storeCommands[0], "ldr") == 0){
-                // printf("Checking ldr\n");
+                
+                // Determines what the desination position value is
                 char * temp1 = &storeCommands[1][1];
                 int num = atoi(temp1);
 
-                char prevLDR[255];
-
-                if (strcmp(regState[num], "\0") != 0){
-                    strcpy(prevLDR, regState[num]);
-                } else {
-                    strcpy(prevLDR, "NULL");
-                }
+                // Determine what the incoming position value is
+                char * temp2 = &storeCommands[2][1];
+                int num2 = atoi(temp2);
                 
+                char prevRegState[255] = "NULL";
 
-                if (offsetStatus == true){
-                    strcpy(regState[num], currentVal);
+                if (strcmp(regState[num], "\0") != 0 && regState[num] != NULL && strcmp(regState[num], "NULL") != 0){
+                    strcpy(prevRegState, regState[num]);
                 } else {
-                    strcpy(regState[num], storeCommands[2]);
+                    strcpy(regState[num], "NULL");
                 }
 
-                if ( regState[num][0] != prevLDR[0] && (regState[num][1] == prevLDR[1]) && (regState[num][2] == prevLDR[2])){
-                    printf("%d: ldr %s, %s    (was %s)\n", lineCounter, storeCommands[1], regState[num], prevLDR);
+                if (strcmp(regState[num2], "\0") == 0 && regState[num2] == NULL && strcmp(regState[num2], "NULL") == 0){
+                    strcpy(regState[num2], "NULL");
                 }
+
+                if (getSize(storeCommands) < 4 && storeCommands[2][1] == '7'){
+                    strcpy(regState[num], "SP");
+                }                
+
+                // Need to consider offset with register 3 still
+                if (getSize(storeCommands) >= 4 && storeCommands[2][1] != '3'){
+                    strcpy(regState[num], currentVal);
+                }
+
+
+                // if ( regState[num][0] != prevRegState[0] && (regState[num][1] == prevRegState[1]) && (regState[num][2] == prevRegState[2])){
+                    // printf("%d: ldr %s, %s    (was %s)\n", lineCounter, storeCommands[1], regState[num], prevLDR);
+                    printf("%d: share %s overwritten by share %s\n", lineCounter, prevRegState, regState[num]);
+                // }
             }
 
             
@@ -242,24 +255,32 @@ int main(int argc, char * argv[]){
                 char * temp1 = &storeCommands[1][1];
                 int num = atoi(temp1);
 
-                char prevLDR[255];
+                char * temp2 = &storeCommands[2][1];
+                int num2 = atoi(temp2);
+
+                char prevRegState[255];
 
                 if (strcmp(regState[num], "\0") != 0){
-                    strcpy(prevLDR, regState[num]);
+                    strcpy(prevRegState, regState[num]);
                 } else {
-                    strcpy(prevLDR, "NULL");
+                    strcpy(prevRegState, "NULL");
+                }
+
+                if (getSize(storeCommands) < 4 && storeCommands[2][1] == '7'){
+                    strcpy(regState[num],"SP");
                 }
                 
 
-                if (offsetStatus == true){
+                if (storeCommands[2][0] != 'r'){
                     strcpy(regState[num], currentVal);
                 } else {
-                    strcpy(regState[num], storeCommands[2]);
+                    
+                    strcpy(regState[num], regState[num2]);
                 }
 
-                if ( regState[num][0] != prevLDR[0] && (regState[num][1] == prevLDR[1]) && (regState[num][2] == prevLDR[2])){
-                    printf("%d: movs %s, %s    (was %s)\n", lineCounter, storeCommands[1], regState[num], prevLDR);
-                }
+                // if ( regState[num][0] != prevRegState[0] && (regState[num][1] == prevRegState[1]) && (regState[num][2] == prevRegState[2])){
+                    // printf("%d: movs %s, %s    (was %s)\n", lineCounter, storeCommands[1], regState[num], prevRegState);
+                // }
             }
             
             
@@ -272,8 +293,44 @@ int main(int argc, char * argv[]){
                 char * temp2 = &storeCommands[2][1];
                 int num2 = atoi(temp2);
 
+                
+
+                // Testing
                 // printf("%d: eors %s, %s\n", lineCounter, regState[num1], regState[num2]);
                 
+            }
+
+            
+            
+            // This is for STR
+            if ( strcmp(storeCommands[0], "str") == 0 && storeCommands[3] != NULL && strcmp(storeCommands[2], "r7") == 0){
+
+                // This will grab the destination eg r3
+                char * temp1 = &storeCommands[1][1];
+                int num = atoi(temp1);
+
+                // This grabs the offset location
+                char * temp2 = storeCommands[3];
+                int num2 = atoi(temp2)/4;
+
+                // Store current value before it gets replaced by the new value
+                char prevMemory[255];
+
+                if (strcmp(shares[num2][0], "\0") != 0 && shares[num2][0] != NULL){
+                    strcpy(prevMemory, shares[num2][0]);
+                } else {
+                    strcpy(prevMemory, "NULL");
+                }
+
+                if (strcmp(regState[num], "\0") != 0 && regState[num] != NULL && strcmp(regState[num], "NULL") != 0){
+                    strcpy(shares[num2][0], regState[num]);
+                } else {
+                    strcpy(shares[num2][0], "NULL");
+                }
+
+                // if (strcmp(prevMemory, shares[0][num2]) != 0 && regState[num][0] != prevMemory[0] && (regState[num][1] == prevMemory[1]) && (regState[num][2] == prevMemory[2])){
+                    // printf("%d: %s overwritten by %s in memory\n", lineCounter, prevMemory, shares[num2][0]);
+                // }
             }
 
 
@@ -281,9 +338,9 @@ int main(int argc, char * argv[]){
 
             // Print values and make them NULL and free the commands
             int a = getSize(storeCommands);
-                for (int i = 0; i < a; i++){
-                    // printf("%s\n", storeCommands[i]);
-                    storeCommands[i] = NULL;
+            for (int i = 0; i < a; i++){
+                // printf("%s\n", storeCommands[i]);
+                storeCommands[i] = NULL;
             }
             // printf("\n");
         }

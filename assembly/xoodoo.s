@@ -10,7 +10,7 @@
 	.eabi_attribute 30, 6
 	.eabi_attribute 34, 0
 	.eabi_attribute 18, 4
-	.file	"xoodoo.c"
+	.file	"Xoodoo-masked-optimized.c"
 	.text
 	.global	XoodooMask
 	.bss
