@@ -1,7 +1,3 @@
-# Compiling the file #
-
-refer to Makefile
-
 # Running the code #
 
 ```
